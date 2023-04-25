@@ -6,6 +6,7 @@ export async function storeTransactions(transactionData) {
     `${URL}/transactions.json`,
     transactionData
   );
+  console.log(response.data);
   const id = response.data.name;
   return id;
 }
