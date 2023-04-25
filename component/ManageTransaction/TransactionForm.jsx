@@ -35,8 +35,6 @@ const TransactionForm = ({
     },
   });
 
-  console.log(inputValues);
-
   function inputChangeHandler(inputId, enteredValue) {
     setInputValues((currInputValues) => {
       return {

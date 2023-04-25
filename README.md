@@ -1,10 +1,36 @@
 # Sendit - Required Installation
 
+# Getting Started
+
+## Fork the Repository
+
+The first step to getting started with this project is to fork the repository. You can do this by clicking the "Fork" button in the top-right corner of the repository page. This will create a copy of the repository in your own GitHub account, which you can then clone to your local machine.
+
+## Install Dependencies
+
+After forking the repository, navigate to the local directory where you want to store the project on your machine using your terminal or command prompt.
+
+Once you are in the project directory, run the following command to install all the required dependencies:
+
+```
+npm install
+```
+
+This command will install all the required dependencies listed in the `package.json` file.
+
+After the installation is complete, you can start working on the project by running the following command:
+
+```
+npm start
+```
+
+This will start the development server, and you can view the project by opening your browser and navigating to the link provided in your console.
+
 ## React Native Expo
 
 React Native Expo is a set of tools and services built around React Native that helps in building mobile applications with ease. Expo provides a convenient way to create a new React Native project with a pre-configured development environment, eliminating the need to set up your own environment. It includes many pre-built components and libraries that can be easily integrated into your application. Expo also simplifies the process of deploying and testing your application on various platforms.
 
-### Documentation
+https://docs.expo.dev/
 
 #### Installation
 
@@ -24,7 +50,7 @@ React Native Expo is important for a project because it provides a fast and easy
 
 React Navigation is a library that provides navigation solutions for React Native applications. It allows for easy navigation between screens and provides a consistent and customizable navigation experience for your users. React Navigation supports various types of navigation such as Stack Navigation, Tab Navigation, Drawer Navigation, and more.
 
-### Documentation
+https://reactnavigation.org/docs/getting-started/
 
 #### Installation
 
@@ -48,7 +74,7 @@ React Navigation is an essential library for any React Native project that requi
 
 React Redux Toolkit is a library that provides a set of tools to simplify the process of building and managing Redux applications. It includes pre-built utilities for Redux such as creating Redux stores, creating reducers, and dispatching actions. It also includes several utility functions for common use cases such as handling asynchronous requests.
 
-### Documentation
+https://redux-toolkit.js.org/introduction/getting-started
 
 #### Installation
 
@@ -66,7 +92,7 @@ React Redux Toolkit is important for a project because it simplifies the process
 
 Axios is a popular library for making HTTP requests in JavaScript. It provides an easy-to-use API for making HTTP requests and handling responses. Axios can be used to make requests to any HTTP endpoint such as REST APIs, GraphQL endpoints, and more.
 
-### Documentation
+https://axios-http.com/docs/intro
 
 #### Installation
 
@@ -96,7 +122,7 @@ Android Studio is important for a project because it provides a comprehensive se
 
 Prettier is a code formatting tool that can be used with various programming languages, including JavaScript, TypeScript, HTML, CSS, and more. Prettier automatically formats your code according to a set of rules, making your code more consistent and easier to read.
 
-### Documentation
+https://prettier.io/docs/en/index.html
 
 #### Installation
 
