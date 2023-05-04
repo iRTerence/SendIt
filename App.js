@@ -6,11 +6,13 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ManageTransaction from "./screens/ManageTransaction";
 import RecentTransactions from "./screens/RecentTransactions";
 import AllTransactions from "./screens/AllTransaction";
+import CameraExamples from "./screens/CameraExamples";
 import { GlobalStyles } from "./constants/style";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import IconButton from "./component/TransactionOutput/UI/IconButton";
 import { Provider } from "react-redux";
 import { store } from "./store/redux/store";
+import QrScanner from "./screens/QrScanner";
 
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
@@ -46,6 +48,17 @@ function TransactionsOverView() {
         component={RecentTransactions}
         options={{
           title: "Recent Transactions",
+          tabBarLabrel: "Recent",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="hourglass" color={color} size={size} />
+          ),
+        }}
+      />
+      <BottomTabs.Screen
+        name="CameraExamples"
+        component={CameraExamples}
+        options={{
+          title: "Camera Examples",
           tabBarLabrel: "Recent",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="hourglass" color={color} size={size} />
