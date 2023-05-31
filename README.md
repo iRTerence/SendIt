@@ -26,6 +26,10 @@ npm start
 
 This will start the development server, and you can view the project by opening your browser and navigating to the link provided in your console.
 
+CORS for local testing with API
+
+https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related
+
 ## React Native Expo
 
 React Native Expo is a set of tools and services built around React Native that helps in building mobile applications with ease. Expo provides a convenient way to create a new React Native project with a pre-configured development environment, eliminating the need to set up your own environment. It includes many pre-built components and libraries that can be easily integrated into your application. Expo also simplifies the process of deploying and testing your application on various platforms.
